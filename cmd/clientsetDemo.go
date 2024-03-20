@@ -22,5 +22,6 @@ var clientsetDemoCmd = &cobra.Command{
 }
 
 func init() {
+	clientsetDemoCmd.Flags().StringVarP(&clientset.Operate, "operate", "", "create", "operate type : create or clean or list")
 	rootCmd.AddCommand(clientsetDemoCmd)
 }
