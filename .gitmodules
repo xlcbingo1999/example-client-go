@@ -1,0 +1,3 @@
+[submodule "kubebuilder-zero-to-one"]
+	path = kubebuilder-zero-to-one
+	url = git@github.com:xlcbingo1999/kubebuilder-zero-to-one.git
